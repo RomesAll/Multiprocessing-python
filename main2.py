@@ -11,4 +11,5 @@ def f():
 if __name__ == '__main__':
     p = multiprocessing.Process(target=f, args=())
     p.start()
+    p.join()
     print('Finished')
