@@ -1,4 +1,5 @@
 import os, time
+
 print(f'Номер процесса {os.getpid()}')
 for i in range(2):
     res = os.fork() # Вызов fork начиная с 4 строчки у нас кодовая база
